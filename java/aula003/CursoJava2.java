@@ -1,4 +1,4 @@
-import javax.swing.table.DefaultTableCellRenderer;
+
 
 public class CursoJava2{
     public static void main(String[] args) {
