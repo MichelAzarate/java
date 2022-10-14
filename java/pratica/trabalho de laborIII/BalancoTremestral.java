@@ -5,8 +5,13 @@ class BalancoTrimestral {
         int gastosMarco = 17000;
         int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
 
-        System.out.printf("%nGasto do trimestre: %d MZ", gastosTrimestre);
+        System.out.println("Gasto do trimestre:"+ gastosTrimestre);
         int mediaPorMes = gastosTrimestre / 3;
-        System.out.printf("%nMédia mensal: %d MZ", mediaPorMes);
+        System.out.println("Média mensal" + mediaPorMes);
+        if(gastosTrimestre>=50000){
+            System.out.println("Estamos no bom caminho" +gastosTrimestre);
+        }else{
+            System.out.println("Estamos no mau caminho" + gastosTrimestre);
+        }
     }
 }
